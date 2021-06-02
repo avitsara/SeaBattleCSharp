@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="../bin/Debug/SeaShipBattleCSharp.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="540 300">
+    <action-group name="Default">
+      <action id="JouerAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Jouer</property>
+        <property name="ShortLabel" translatable="yes">Jouer</property>
+      </action>
+      <action id="ChargerAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Charger</property>
+        <property name="ShortLabel" translatable="yes">Charger</property>
+      </action>
+      <action id="AideAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Aide </property>
+        <property name="ShortLabel" translatable="yes">Aide </property>
+      </action>
+      <action id="QuitterAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Quitter</property>
+        <property name="ShortLabel" translatable="yes">Quitter</property>
+      </action>
+      <action id="NouvellePartieAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Nouvelle partie</property>
+        <property name="ShortLabel" translatable="yes">Nouvelle partie</property>
+      </action>
+      <action id="ChargerUnePartieAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Charger une partie</property>
+        <property name="ShortLabel" translatable="yes">Charger une partie</property>
+      </action>
+      <action id="RglesDuJeuAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Règles du jeu </property>
+        <property name="ShortLabel" translatable="yes">Règles du jeu </property>
+      </action>
+    </action-group>
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">MainWindow</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed1">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.MenuBar" id="menubar1">
+            <property name="MemberName" />
+            <node name="__gtksharp_117_Stetic_Editor_ActionMenuBar" type="Menubar">
+              <node type="Menu" action="JouerAction">
+                <node type="Menuitem" action="NouvellePartieAction" />
+              </node>
+              <node type="Menu" action="ChargerAction">
+                <node type="Menuitem" action="ChargerUnePartieAction" />
+              </node>
+              <node type="Menu" action="AideAction">
+                <node type="Menuitem" action="RglesDuJeuAction" />
+              </node>
+              <node type="Menu" action="QuitterAction" />
+            </node>
+          </widget>
+          <packing>
+            <property name="X">11</property>
+            <property name="Y">12</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>

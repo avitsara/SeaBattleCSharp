@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{53D424BD-D295-4230-9E6B-65BE05488A75}|Default">
+  <MonoDevelop.Ide.ItemProperties.SeaShipBattleCSharp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SeaShipBattleCSharp/Program.cs">
+    <Files>
+      <File FileName="SeaShipBattleCSharp/Program.cs" Line="14" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SeaShipBattleCSharp" expanded="True">
+            <Node name="SeaShipBattleCSharp" expanded="True">
+              <Node name="UserInterface" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

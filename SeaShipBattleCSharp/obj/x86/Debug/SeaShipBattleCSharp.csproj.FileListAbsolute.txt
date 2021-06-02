@@ -1,0 +1,6 @@
+/home/jary/Projects/SeaShipBattleCSharp/SeaShipBattleCSharp/bin/Debug/SeaShipBattleCSharp.exe
+/home/jary/Projects/SeaShipBattleCSharp/SeaShipBattleCSharp/bin/Debug/SeaShipBattleCSharp.pdb
+/home/jary/Projects/SeaShipBattleCSharp/SeaShipBattleCSharp/obj/x86/Debug/SeaShipBattleCSharp.csprojAssemblyReference.cache
+/home/jary/Projects/SeaShipBattleCSharp/SeaShipBattleCSharp/obj/x86/Debug/SeaShipBattleCSharp.csproj.CoreCompileInputs.cache
+/home/jary/Projects/SeaShipBattleCSharp/SeaShipBattleCSharp/obj/x86/Debug/SeaShipBattleCSharp.exe
+/home/jary/Projects/SeaShipBattleCSharp/SeaShipBattleCSharp/obj/x86/Debug/SeaShipBattleCSharp.pdb
